@@ -1,0 +1,91 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700);
+
+body {
+    background-image: url('../img/lightpaperfibers.png');
+    background-color: rgba(214,235,255,0.9);
+}
+
+#background {
+    width: 100%;
+}
+
+.hero-text {
+    font-family: 'Playfair Display', serif;
+    margin-left: 20%;
+    color: #222;
+    font-size: 5vmax;
+}
+
+.hero-text:hover {
+    background-color: #222;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.4) 0 3px 3px;
+}
+
+.hero-description {
+    font-size: 0.15em;
+    width: 70%;
+}
+
+#contact-email{
+    text-decoration: none;
+    color: inherit;
+}
+
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 736px) {
+    .hero-text {
+        margin-left: 3%;
+    }
+
+    .hero-description {
+        font-size: 0.45em;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+        padding-top: 10%;
+    }
+
+    .hero-text {
+        margin-left: 8%;
+    }
+
+    .hero-description {
+        font-size: 0.25em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
