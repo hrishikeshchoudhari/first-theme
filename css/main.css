@@ -9,8 +9,6 @@
 body {
     background-image: url('../img/lightpaperfibers.png');
     background-color: rgba(214,235,255,0.9);
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 #background {
@@ -34,14 +32,47 @@ body {
 }
 
 .hero-description {
-    /*visibility: hidden;*/
-    font-size: 0.2em;
+    font-size: 0.15em;
+    width: 70%;
 }
 
-/* Don't show shadows when selecting text */
+#contact-email{
+    text-decoration: none;
+    color: inherit;
+}
+
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 736px) {
+    .hero-text {
+        margin-left: 3%;
+    }
+
+    .hero-description {
+        font-size: 0.45em;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+        padding-top: 10%;
+    }
+
+    .hero-text {
+        margin-left: 8%;
+    }
+
+    .hero-description {
+        font-size: 0.25em;
+    }
+}
 
 
 
