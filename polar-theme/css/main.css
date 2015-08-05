@@ -29,6 +29,26 @@ header {
    height: 150px;
 }
 
-#top-navbar {
+.content {
+   width: 100%;
+   padding: 100px;
+   background-color: #ffffff;
+}
 
+#news-header {
+   margin-bottom: 20px;
+}
+
+.news-date {
+   color: #5e5e5e;
+   font-size: 0.7em;
+   margin-top: 10px;
+}
+
+.news-item h3 {
+   margin-top: 5px;
+}
+
+.news-item a {
+   color: #333333;
 }
