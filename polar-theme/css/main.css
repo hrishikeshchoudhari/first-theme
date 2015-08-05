@@ -50,5 +50,16 @@ header {
 }
 
 .news-item a {
+   text-decoration: none;
+   color: #333333;
+}
+
+#projects-header {
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.highlighted-project-item a {
+   text-decoration: none;
    color: #333333;
 }
