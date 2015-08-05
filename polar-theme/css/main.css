@@ -63,3 +63,20 @@ header {
    text-decoration: none;
    color: #333333;
 }
+
+footer {
+   padding: 40px;
+   background-color: #444444;
+   color: #ffffff;
+   padding-bottom: 50px;
+   margin-bottom: 0;
+}
+
+footer a, footer a:hover {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+#footer-copyright {
+   margin: 0 auto;
+}
