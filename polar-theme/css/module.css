@@ -1,35 +1,57 @@
-#site-logo {
+.logo {
     float: left;
     display: inline-block;
     margin-left: 50px;
 }
 
-#site-logo img {
+.logo img {
     margin-top: 50px;
 }
 
-#news-header {
+.hero {
+
+}
+
+.slider {
+
+}
+
+.section-header {
     margin-bottom: 20px;
 }
 
-.news-date {
+.item-title {
+    margin-top: 5px;
+
+}
+
+.item-subtitle {
     color: #5e5e5e;
     font-size: 0.7em;
     margin-top: 10px;
 }
 
-.news-item h3 {
-    margin-top: 5px;
+.item-text {
+
 }
 
-.news-item a {
-    text-decoration: none;
-    color: #333333;
+.article-title {
+
 }
+
+.article-subtitle {
+
+}
+
+.article-text {
+
+}
+
+.news-item h3 {
+}
+
 
 #projects-header {
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
 
 .highlighted-project-item a {
