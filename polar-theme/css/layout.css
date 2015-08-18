@@ -1,0 +1,32 @@
+#main-container {
+    max-width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+header {
+    height: 150px;
+}
+
+.content {
+    width: 100%;
+    padding: 100px;
+    background-color: #ffffff;
+}
+
+footer {
+    padding: 40px;
+    background-color: #444444;
+    color: #ffffff;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+footer a, footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer-copyright {
+    margin: 0 auto;
+}

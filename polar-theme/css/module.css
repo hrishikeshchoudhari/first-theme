@@ -1,0 +1,38 @@
+#site-logo {
+    float: left;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#site-logo img {
+    margin-top: 50px;
+}
+
+#news-header {
+    margin-bottom: 20px;
+}
+
+.news-date {
+    color: #5e5e5e;
+    font-size: 0.7em;
+    margin-top: 10px;
+}
+
+.news-item h3 {
+    margin-top: 5px;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#projects-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.highlighted-project-item a {
+    text-decoration: none;
+    color: #333333;
+}

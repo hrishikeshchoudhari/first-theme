@@ -4,18 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
-body {
+/*body {
    background-color: #e8e8e8;
-}
+}*/
 
-#main-container {
+/*#main-container {
    max-width: 70%;
    margin: 20px auto;
    border-radius: 10px;
+}*/
 
-}
-
-#site-logo {
+/*#site-logo {
    float: left;
    display: inline-block;
    margin-left: 50px;
@@ -23,9 +22,9 @@ body {
 
 #site-logo img {
    margin-top: 50px;
-}
+}*/
 
-header {
+/*header {
    height: 150px;
 }
 
@@ -33,9 +32,9 @@ header {
    width: 100%;
    padding: 100px;
    background-color: #ffffff;
-}
+}*/
 
-#news-header {
+/*#news-header {
    margin-bottom: 20px;
 }
 
@@ -62,9 +61,9 @@ header {
 .highlighted-project-item a {
    text-decoration: none;
    color: #333333;
-}
+}*/
 
-footer {
+/*footer {
    padding: 40px;
    background-color: #444444;
    color: #ffffff;
@@ -75,8 +74,9 @@ footer {
 footer a, footer a:hover {
    text-decoration: none;
    color: #ffffff;
-}
+}*/
 
+/*
 #footer-copyright {
    margin: 0 auto;
-}
+}*/
